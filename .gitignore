@@ -1,0 +1,55 @@
+# ============================================================
+# AttackGuard v2 - Git Ignore
+# ============================================================
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+myenv/
+venv/
+.venv/
+env/
+
+# Environment files / secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration
+config.local.py
+
+# Databases / runtime data
+*.db
+*.sqlite
+*.sqlite3
+attackguard.db
+
+# Logs
+*.log
+logs/
+
+# Runtime reports / temporary files
+reports/
+tmp/
+temp/
+
+# Local testing files
+test_telegram.py
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing / Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
